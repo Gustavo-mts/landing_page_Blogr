@@ -5,6 +5,7 @@
 }
 body {
     background-color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     background-image: url('images/bg-pattern-intro.svg');
@@ -65,4 +66,25 @@ nav {
     margin-right: 10px;
     color: #fff;
     text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-container h1 {
+    padding-top: 100px;
+    font-size: 52px;
+    color: #fff;
+    line-height: 100px;
+}
+.header-container span {
+    font-size: 17px;
+    color: #fff;
+}
+.buttons-container button {
+    padding: 15px 45px;
+    border-radius: 25px;
 }
