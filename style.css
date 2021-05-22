@@ -151,3 +151,19 @@ nav {
 .section-first--text h2:last-of-type {
     margin-top: 50px;
 }
+
+
+
+
+.section-second {
+    background-color: #3b3e5d;
+    height: 400px;
+    display: flex;
+}
+.section-second img{
+    
+}
+.section-section-desc {
+    display: flex;
+    flex-direction: column;
+}
