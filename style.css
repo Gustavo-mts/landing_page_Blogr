@@ -173,7 +173,7 @@ nav {
     padding-left: 50px;
 }
 
-.section-section-desc {
+.section-second-desc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -187,8 +187,39 @@ nav {
     padding-bottom: 100px;
     font-size: 17px;
 }
-.section-section-desc h1 {
+.section-second-desc h1 {
     margin-bottom: 50px;
     font-size: 30px;
     font-weight: lighter;
+}
+
+
+
+
+
+.section-third {
+    padding: 80px;
+    background-image: url('images/illustration-laptop-desktop.svg');
+    background-position-x: -75%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-third-desc {
+    padding-left: 50%;
+    padding-top: 280px;
+    padding-bottom: 300px;
+    padding-right: 70px;
+}
+.section-third-desc h2 {
+    margin-bottom: 30px;
+    color: #204059;
+}
+.section-third-desc p {
+    line-height: 30px;
+}
+.section-third-desc p:first-of-type {
+    margin-bottom: 70px;
 }
