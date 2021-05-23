@@ -210,7 +210,7 @@ nav {
 .section-third-desc {
     padding-left: 50%;
     padding-top: 280px;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     padding-right: 70px;
 }
 .section-third-desc h2 {
@@ -222,4 +222,29 @@ nav {
 }
 .section-third-desc p:first-of-type {
     margin-bottom: 70px;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    background-color: #24242c;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 140px;
+    border-top-right-radius: 120px;
+}
+.footer-first,
+.footer-second,
+.footer-third {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    line-height: 35px;
+    padding-left: 160px;
+}
+.footer h3 {
+    margin-bottom: 30px;
 }
