@@ -209,6 +209,9 @@ nav {
     justify-content: center;
     align-items: center;
 }
+.section-third img {
+    display: none;
+}
 .section-third-desc {
     padding-left: 50%;
     padding-top: 280px;
@@ -255,7 +258,7 @@ nav {
 @media only screen and (max-width: 1024px) {
     .section-first {
         background-image: none;
-        margin-bottom: 600px;
+        margin-bottom: 700px;
     }
     .section-first img {
         display: block;
@@ -270,5 +273,69 @@ nav {
     .section-first--text h2 {
         font-size: 45px;
         line-height: 50px;
+    }
+
+    .section-second {
+        background-position-y: 250%;
+    }
+    .section-second-desc {
+        margin: auto;
+        padding-top: 480px;
+        text-align: center;
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+    .section-second-desc h1 {
+        font-size: 50px;
+        margin-bottom: 100px;
+    }
+    .section-second img{
+        padding-left: 25%;
+        margin-top: -275px;
+    }
+
+
+    .section-third {
+        background-image: none;
+    }
+    .section-third img {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .section-third-desc {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+    }
+    .section-third-desc h2 {
+        font-size: 30px;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+       
+    }
+    .footer-img {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .footer-first,
+    .footer-second,
+    .footer-third {
+        margin: auto;
+        padding: 0;
+        text-align: center;
+    }
+    footer h3 {
+        margin-top: 30px;
+        font-size: 22px;
     }
 }
